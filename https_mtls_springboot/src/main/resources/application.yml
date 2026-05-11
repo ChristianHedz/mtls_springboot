@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: provider-service
+
+  datasource:
+    url: jdbc:h2:mem:provider_db;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  ssl:
+    bundle:
+      jks:
+        provider-bundle:
+          keystore:
+            location: classpath:keystore/provider-keystore.p12
+            password: changeit
+            type: PKCS12
+          truststore:
+            location: classpath:keystore/provider-truststore.p12
+            password: changeit
+            type: PKCS12
+
+server:
+  port: 8443
+  ssl:
+    bundle: provider-bundle
+    client-auth: need
+    enabled-protocols: TLSv1.3,TLSv1.2
+
+logging:
+  level:
+    org.springframework.security: INFO
+    org.springframework.web: INFO
+    org.apache.tomcat.util.net: INFO

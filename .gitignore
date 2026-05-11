@@ -1,0 +1,25 @@
+# Keystores y certificados — NUNCA commitear material criptográfico
+*.p12
+*.jks
+*.pfx
+*.key
+*.csr
+*.crt
+*.pem
+
+# Build outputs
+build/
+.gradle/
+out/
+target/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store

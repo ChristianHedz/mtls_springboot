@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: consumer-service
+
+  ssl:
+    bundle:
+      jks:
+        consumer-bundle:
+          keystore:
+            location: classpath:keystore/consumer-keystore.p12
+            password: changeit
+            type: PKCS12
+          truststore:
+            location: classpath:keystore/consumer-truststore.p12
+            password: changeit
+            type: PKCS12
+
+provider:
+  base-url: https://localhost:8443
+  keystore:
+    path: classpath:keystore/consumer-keystore.p12
+    password: changeit
+    type: PKCS12
+  truststore:
+    path: classpath:keystore/consumer-truststore.p12
+    password: changeit
+    type: PKCS12
+
+server:
+  port: 8444
+
+logging:
+  level:
+    org.springframework.web: INFO
+    mx.com.asteci: DEBUG
