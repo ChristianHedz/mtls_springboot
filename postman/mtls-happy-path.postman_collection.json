@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "a3f51c8e-2b14-4d6a-9e0b-1a7c2e4d8f01",
+		"name": "mTLS — Happy path",
+		"description": "Pruebas básicas de los dos endpoints del provider (GET /api/users y GET /api/users/{id}) sobre HTTPS con mTLS. Requiere que el provider esté corriendo en https://localhost:8443 y que tengas configurado el cert de cliente en Settings → Certificates (ver walkthrough 06).",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET all users",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{provider_base_url}}/api/users",
+					"host": [
+						"{{provider_base_url}}"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				},
+				"description": "Lista todos los usuarios. Devuelve un wrapper { status, data: [...] }."
+			},
+			"response": []
+		},
+		{
+			"name": "GET user by id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{provider_base_url}}/api/users/{{user_id}}",
+					"host": [
+						"{{provider_base_url}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"{{user_id}}"
+					]
+				},
+				"description": "Devuelve un usuario específico. El id se controla con la variable user_id (default: 1)."
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "provider_base_url",
+			"value": "https://localhost:8443",
+			"type": "string"
+		},
+		{
+			"key": "user_id",
+			"value": "1",
+			"type": "string"
+		}
+	]
+}
