@@ -154,6 +154,6 @@ keytool -list -v -keystore provider-keystore.p12 -storepass "$STOREPASS" -alias 
   | grep -E "Alias name|Owner|Issuer|Certificate chain length|SubjectAlternativeName" || true
 echo ""
 echo "Próximo paso:"
-echo "  cp provider-keystore.p12 provider-truststore.p12 ../https_mtls_springboot/src/main/resources/keystore/"
-echo "  cp consumer-keystore.p12 consumer-truststore.p12 ../https_mtls_springboot2/src/main/resources/keystore/"
+echo "  cp provider-keystore.p12 provider-truststore.p12 ../users-provider/src/main/resources/keystore/"
+echo "  cp consumer-keystore.p12 consumer-truststore.p12 ../users-consumer/src/main/resources/keystore/"
 echo "  Importar ca.crt y postman-keystore.p12 en Postman → Settings → Certificates"
