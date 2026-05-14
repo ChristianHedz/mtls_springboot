@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Cookies DB Diagram" id="vy5z-Yl3Klmi3eFlt1w1">
-    <mxGraphModel dx="1245" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1377" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="t_cat" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontStyle=1;rounded=1;" value="COOKIE_CATEGORY" vertex="1">
-          <mxGeometry height="198" width="280" x="30" y="940" as="geometry" />
+          <mxGeometry height="126" width="280" x="30" y="990" as="geometry" />
         </mxCell>
         <mxCell id="c1" parent="t_cat" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;table style=&quot;width: 100%; color: black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; font-weight:bold;&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;text-align:left; font-weight:bold;&quot;&gt;id&lt;/td&gt;&lt;td style=&quot;text-align: right; color: rgb(102, 102, 102);&quot;&gt;INT&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
           <mxGeometry height="24" width="280" y="30" as="geometry" />
@@ -18,15 +18,6 @@
         </mxCell>
         <mxCell id="c4" parent="t_cat" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;html&gt;&lt;table style=&quot;width:100%; color:black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; color:#666666;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;description&lt;/td&gt;&lt;td style=&quot;text-align:right; color:#666666;&quot;&gt;TEXT&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;" vertex="1">
           <mxGeometry height="24" width="280" y="102" as="geometry" />
-        </mxCell>
-        <mxCell id="c5" parent="t_cat" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;html&gt;&lt;table style=&quot;width:100%; color:black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; color:#666666;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;is_active&lt;/td&gt;&lt;td style=&quot;text-align:right; color:#666666;&quot;&gt;BOOLEAN&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;" vertex="1">
-          <mxGeometry height="24" width="280" y="126" as="geometry" />
-        </mxCell>
-        <mxCell id="c6" parent="t_cat" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;html&gt;&lt;table style=&quot;width:100%; color:black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; color:#666666;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;created_at&lt;/td&gt;&lt;td style=&quot;text-align:right; color:#666666;&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;" vertex="1">
-          <mxGeometry height="24" width="280" y="150" as="geometry" />
-        </mxCell>
-        <mxCell id="c7" parent="t_cat" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;html&gt;&lt;table style=&quot;width:100%; color:black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; color:#666666;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;updated_at&lt;/td&gt;&lt;td style=&quot;text-align:right; color:#666666;&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;" vertex="1">
-          <mxGeometry height="24" width="280" y="174" as="geometry" />
         </mxCell>
         <mxCell id="t_pol" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;fontStyle=1;rounded=1;" value="COOKIE_POLICY_VERSION" vertex="1">
           <mxGeometry height="174" width="280" x="40" y="500" as="geometry" />
@@ -50,7 +41,7 @@
           <mxGeometry height="24" width="280" y="150" as="geometry" />
         </mxCell>
         <mxCell id="t_vis" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontStyle=1;rounded=1;" value="VISITOR" vertex="1">
-          <mxGeometry height="198" width="280" x="840" y="170" as="geometry" />
+          <mxGeometry height="126" width="280" x="840" y="200" as="geometry" />
         </mxCell>
         <mxCell id="v1" parent="t_vis" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;table style=&quot;width: 100%; color: black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; font-weight:bold;&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;text-align:left; font-weight:bold;&quot;&gt;id&lt;/td&gt;&lt;td style=&quot;text-align: right; color: rgb(102, 102, 102);&quot;&gt;INT&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
           <mxGeometry height="24" width="280" y="30" as="geometry" />
@@ -58,20 +49,11 @@
         <mxCell id="v2" parent="t_vis" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;table style=&quot;width: 100%; color: black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width: 40px; text-align: left; color: rgb(102, 102, 102);&quot;&gt;UK&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;visitor_uuid&lt;/td&gt;&lt;td style=&quot;text-align: right; color: rgb(102, 102, 102);&quot;&gt;VARCHAR(36)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
           <mxGeometry height="24" width="280" y="54" as="geometry" />
         </mxCell>
-        <mxCell id="v3" parent="t_vis" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;table style=&quot;width: 100%; color: black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width: 40px; text-align: left; color: rgb(102, 102, 102);&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;user_id&lt;/td&gt;&lt;td style=&quot;text-align: right; color: rgb(102, 102, 102);&quot;&gt;INT&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+        <mxCell id="v4" parent="t_vis" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;html&gt;&lt;table style=&quot;width:100%; color:black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; color:#666666;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;first_seen_at&lt;/td&gt;&lt;td style=&quot;text-align:right; color:#666666;&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;" vertex="1">
           <mxGeometry height="24" width="280" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="v4" parent="t_vis" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;html&gt;&lt;table style=&quot;width:100%; color:black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; color:#666666;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;first_seen_at&lt;/td&gt;&lt;td style=&quot;text-align:right; color:#666666;&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;" vertex="1">
-          <mxGeometry height="24" width="280" y="102" as="geometry" />
-        </mxCell>
         <mxCell id="v5" parent="t_vis" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;html&gt;&lt;table style=&quot;width:100%; color:black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; color:#666666;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;last_seen_at&lt;/td&gt;&lt;td style=&quot;text-align:right; color:#666666;&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;" vertex="1">
-          <mxGeometry height="24" width="280" y="126" as="geometry" />
-        </mxCell>
-        <mxCell id="v6" parent="t_vis" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;html&gt;&lt;table style=&quot;width:100%; color:black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; color:#666666;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;created_at&lt;/td&gt;&lt;td style=&quot;text-align:right; color:#666666;&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;" vertex="1">
-          <mxGeometry height="24" width="280" y="150" as="geometry" />
-        </mxCell>
-        <mxCell id="v7" parent="t_vis" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;html&gt;&lt;table style=&quot;width:100%; color:black;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td style=&quot;width:40px; text-align:left; color:#666666;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;text-align:left;&quot;&gt;updated_at&lt;/td&gt;&lt;td style=&quot;text-align:right; color:#666666;&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;" vertex="1">
-          <mxGeometry height="24" width="280" y="174" as="geometry" />
+          <mxGeometry height="24" width="280" y="102" as="geometry" />
         </mxCell>
         <mxCell id="t_ses" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;fontStyle=1;rounded=1;" value="VISITOR_SESSION" vertex="1">
           <mxGeometry height="270" width="280" x="840" y="430" as="geometry" />
@@ -225,11 +207,12 @@
             <mxPoint x="800" y="851" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rel_vis_cur" edge="1" parent="1" source="t_vis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;endArrow=ERmany;startArrow=ERone;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t_cur" value="">
+        <mxCell id="rel_vis_cur" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t_cur" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="570" y="269" />
             </Array>
+            <mxPoint x="840" y="270" as="sourcePoint" />
             <mxPoint x="740" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -245,12 +228,13 @@
         <mxCell id="rel_ses_his" edge="1" parent="1" source="t_ses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=ERmany;startArrow=ERone;strokeColor=#000000;" target="t_hist" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rel_vis_his" edge="1" parent="1" source="t_vis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;endArrow=ERmany;startArrow=ERone;strokeColor=#000000;" value="">
+        <mxCell id="rel_vis_his" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;strokeColor=#000000;" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1190" y="269" />
               <mxPoint x="1190" y="896" />
             </Array>
+            <mxPoint x="1120" y="270" as="sourcePoint" />
             <mxPoint x="1150" y="896" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -263,12 +247,12 @@
             <mxPoint x="810" y="1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QVjGBuMdCWyPkNbfAlCu-4" edge="1" parent="1" source="c4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+        <mxCell id="QVjGBuMdCWyPkNbfAlCu-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;strokeColor=#000000;" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="1054" />
             </Array>
-            <mxPoint x="340" y="1170" as="sourcePoint" />
+            <mxPoint x="310" y="1054" as="sourcePoint" />
             <mxPoint x="410" y="1054" as="targetPoint" />
           </mxGeometry>
         </mxCell>
